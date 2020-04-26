@@ -11,9 +11,12 @@ function App() {
     
       <header className="App-header">
         <Navbar />
+        <i className="fas fa-laptop-code anim-logo" style={{ color: "grey", "font-size": "30px"}}></i>
         <img src={logo} className="App-logo" alt="logo" />
-        <button className="btn"> View My works</button>
         
+        <i className="fas fa-meteor app-logo-2" style={{ color: "grey", "font-size": "20px"}}></i>
+        <button className="btn"> View My works</button>
+        <i className="fas fa-laptop-code anim-logo" style={{ color: "grey", "font-size": "30px"}}></i>
 
     
       </header>

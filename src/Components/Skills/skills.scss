@@ -1,0 +1,9 @@
+.skill-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    i{
+        margin:50px;
+    }
+}
