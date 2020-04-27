@@ -3,9 +3,7 @@
     background-color: #883444; 
     color:white;
     margin:20px;
-    h2{
-        margin-bottom: 30px;
-    }
+    
     p{
         font-size: 20px;
     }
@@ -21,6 +19,9 @@
 }
 .demos-btn{
     margin:20px;
+    a{
+    color: white;
+    }
     
 }
 .projects-container{
@@ -31,4 +32,10 @@
     
 }
 .projects{
+    h3{
+        margin-bottom: 30px;
+         color: rgba(27, 102, 124, 0.877);
+        padding:20px;
+        text-transform: uppercase;
+    }
 }

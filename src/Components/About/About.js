@@ -7,7 +7,7 @@ function About() {
     <> 
     <div className="about">
     <div className="container">
-      <h2 className="center">About Me </h2>
+      <h3 className="center">About Me </h3>
       <img src={logo} className="App-logo" alt="logo" />
       <p className="center">
         I am SHAMSEENA KARUMAROT (Shamz), A passionate Web/Front-End Developer

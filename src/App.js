@@ -12,9 +12,9 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-    
+      <Navbar />
       <header className="App-header">
-        <Navbar />
+        
         <img src={logo} className="App-logo" alt="logo" />
         <h4> Hi there, I'm a React/Javascript Front End Developer...</h4><br></br>
         <button className="btn"> View My works</button>

@@ -10,7 +10,7 @@ function Projects() {
     <>
       <div className="projects">
         <div className="container">
-          <h2 class="center"> Projects</h2>
+          <h3 className="center"> Projects</h3>
           <div className="projects-container">
           <div className="card container project-card">
             <img src={newslive} alt="News_App_img" />
@@ -43,7 +43,7 @@ function Projects() {
             <h5>Portfolio -(Javascript)</h5>
             <p> Javascript, Particles.js, Webpack, NPM, HTML5, CSS3 </p>
             <button className="btn demos-btn">
-              <a href="https://shamseena-dev.github.io/My-Portfolio/">Demo</a>
+              <a href="https://shamseena.netlify.app/">Demo</a>
             </button>
 
             <button className="btn demos-btn">
