@@ -1,15 +1,22 @@
+h3{
+   color: rgba(46, 172, 211, 0.877);
+   padding:20px;
+}
 
-h2{
+h6{
 
-	color: rgba(0,0,0,0.6);
+    color: white;
+    padding:20px;
 
 }
 
-.inside-container{
+.inside{
     width:50vmin;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    margin:auto;
+    padding:20px;
 }
 .social-icons {
 
@@ -24,20 +31,24 @@ h2{
 
 	text-decoration: none;
 
-	color: #883444;
+      
+	color: #883444; 
 
 
 
 }
 
-
+i{
+    font-size: 30px;
+}
 
 
 
 
 a:hover{
 
-	color: rgba(0,0,0,0.7);
+    
+    transform: translate(0,-10px);
 
 }
 
@@ -51,7 +62,7 @@ a:hover{
 
 	background-color: #883444; 
 
-	width:40vmin;
+	width:70vmin;
 
 	text-align: center;
 

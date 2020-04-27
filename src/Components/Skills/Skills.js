@@ -4,8 +4,11 @@ import "./skills.scss";
 function Skills() {
   return (
     <>
+    <div className="skills">
+      <div className="container">
+      
       <h2>Skills </h2>
-      <div className="container skill-icons">
+      <div className="skill-icons">
         <i
           className="fab fa-react"
           style={{ color: "blue", "font-size": "80px" }}
@@ -16,7 +19,7 @@ function Skills() {
         ></i>
         <i
           className="fab fa-js"
-          style={{ color: "yellow", "font-size": "80px" }}
+          style={{ "color": "yellow","background-color":"black", "font-size": "80px" }}
         ></i>
         <i
           className="fab fa-css3-alt"
@@ -44,6 +47,8 @@ function Skills() {
           style={{ color: "blue", "font-size": "80px" }}
         ></i>
         
+      </div>
+      </div>
       </div>
     </>
   );

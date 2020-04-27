@@ -5,7 +5,9 @@ function Contact(){
        <>
        <div className="social-icons">
        <div className="container">
-       <div className="inside-container center">
+       <h3>Contact</h3>
+       <h6>Feel free to check my works and connect with  me </h6>
+       <div className="inside">
        <a href="https://www.linkedin.com/in/shamseena-karumarot-26431089/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
 
 <a href="https://github.com/shamseena-dev"><i class="fab fa-github" aria-hidden="true"></i></a>
