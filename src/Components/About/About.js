@@ -1,8 +1,11 @@
 import React from "react";
+import "./about.scss";
 
 function About() {
   return (
-    <>
+    <> 
+    <div className="about">
+    <div className="container">
       <h2 className="center">About Me </h2>
       
       <p className="center">
@@ -22,6 +25,8 @@ function About() {
         My love and passion for Web Designing and Development made me dive into
         this amazing field .
       </p>
+      </div>
+      </div>
     </>
   );
 }

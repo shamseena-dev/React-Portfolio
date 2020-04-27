@@ -8,8 +8,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .app-logo-2 {
-    animation: App-logo-spin infinite 2s linear;
+  .anim-logo{
+    animation: logo-spin infinite 2s linear;
   }
 }
 
@@ -24,44 +24,16 @@
   color: white;
 }
 
-.anim-logo{
-  animation: logo-spin infinite 2s linear;
-}
-.spin-logo{
-  animation: spinner infinite 2s linear;
-}
-@keyframes App-logo-spin {
-  from {
-    
-    -ms-transform: translate(-104px,-104px); 
-  -webkit-transform: translate(-104px,-104px); 
-  transform: translate(-104px,-104px);
-  }
-  to {
-    -ms-transform: translate(-102px,-106px); 
-  -webkit-transform: translate(-102px,-106px); 
-  transform: translate(-102px,-106px);
-  }
-}
+
 
 @keyframes logo-spin {
   from {
     
-    -ms-transform: translate(-104px,-104px); 
-  -webkit-transform: translate(-104px,-104px); 
-  transform: translate(-104px,-104px);
+ 
+  transform: translate(-200px,-250px);
   }
   to {
-    -ms-transform: translate(-102px,-106px); 
-  -webkit-transform: translate(-102px,-106px); 
-  transform: translate(-102px,-106px);
+    transform: translate(-150px, -250px);
   }
 }
-@keyframes spinner {
-  from {    
-  transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-}
+

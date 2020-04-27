@@ -1,0 +1,19 @@
+.navbar{
+    margin-top: 0px;
+}
+@media all and (max-width:500px){
+    .nav-ul{
+        height: 100%;
+        width:200px;
+        display:flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        left:-100px;
+        position:fixed;
+        i{
+            color:grey;
+            font-size: 25px;
+        }
+
+    }
+}

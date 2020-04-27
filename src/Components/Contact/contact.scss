@@ -1,0 +1,60 @@
+
+h2{
+
+	color: rgba(0,0,0,0.6);
+
+}
+
+.inside-container{
+    width:50vmin;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-icons {
+
+    color: rgba(0,0,0,0.8);
+   
+    background-color:rgba(0,0,0,0.9);
+    padding:30px;
+
+}
+
+ a{
+
+	text-decoration: none;
+
+	color: #883444;
+
+
+
+}
+
+
+
+
+
+
+a:hover{
+
+	color: rgba(0,0,0,0.7);
+
+}
+
+.social-icons::after {
+
+	content:'';
+
+	display:block;
+
+	height: 2px;
+
+	background-color: #883444; 
+
+	width:40vmin;
+
+	text-align: center;
+
+	margin: 10px auto 40px auto;
+
+}
