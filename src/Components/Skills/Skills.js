@@ -7,7 +7,7 @@ function Skills() {
     <div className="skills">
       <div className="container">
       
-      <h2>Skills </h2>
+      <h3>Skills </h3>
       <div className="skill-icons">
         <i
           className="fab fa-react"

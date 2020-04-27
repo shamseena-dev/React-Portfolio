@@ -2,6 +2,7 @@ import React from "react";
 import shopping_list from "../../images/shopping_list.jpg";
 import newslive from "../../images/newslive.jpg";
 import portfolio_js from "../../images/portfolio_pjt.jpg";
+import portfolio_react from "../../images/Portfolio_react.JPG";
 import "./projects.scss";
 
 function Projects() {
@@ -10,6 +11,7 @@ function Projects() {
       <div className="projects">
         <div className="container">
           <h2 class="center"> Projects</h2>
+          <div className="projects-container">
           <div className="card container project-card">
             <img src={newslive} alt="News_App_img" />
             <h5>NewsLive - (SPA React)</h5>
@@ -26,7 +28,7 @@ function Projects() {
           </div>
 
           <div className="card container project-card">
-            <img src="" alt="Portfolio img" />
+            <img src={portfolio_react} alt="Portfolio img" />
             <h5>Portfolio - (React)</h5>
             <p> React, Materialize CSS, SASS/SCSS ,NPM </p>
           </div>
@@ -62,6 +64,7 @@ function Projects() {
                 GitHub
               </a>
             </button>
+          </div>
           </div>
         </div>
       </div>

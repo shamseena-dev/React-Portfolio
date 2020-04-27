@@ -1,6 +1,11 @@
 .project-card {
     width: 400px;
-    color:black;
+    background-color: #883444; 
+    color:white;
+    margin:20px;
+    h2{
+        margin-bottom: 30px;
+    }
     p{
         font-size: 20px;
     }
@@ -17,4 +22,13 @@
 .demos-btn{
     margin:20px;
     
+}
+.projects-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.projects{
 }

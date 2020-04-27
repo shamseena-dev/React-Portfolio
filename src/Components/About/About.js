@@ -23,7 +23,7 @@ function About() {
       </p>
 
       <p>
-        My love and passion for Web Designing and Development made me dive into
+        My love and passion for Web Development made me dive into
         this amazing field .
       </p>
       </div>
