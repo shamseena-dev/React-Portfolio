@@ -4,14 +4,14 @@ import "./skills.scss";
 function Skills() {
   return (
     <>
-    <div className="skills">
+    <div className="skills-section" id="skills">
       <div className="container">
       
-      <h3>Skills </h3>
+      <h4>Skills </h4>
       <div className="skill-icons">
         <i
           className="fab fa-react"
-          style={{ color: "blue", "font-size": "80px" }}
+          style={{ color: "#6666ff", "font-size": "80px" }}
         ></i>
         <i
           className="fab fa-sass"
@@ -40,7 +40,7 @@ function Skills() {
         <i className="fab fa-npm" style={{ color: "red", "font-size": "80px" }}></i>
         <i
           className="fab fa-yarn"
-          style={{ color: "blue", "font-size": "80px" }}
+          style={{ color: "#6666ff", "font-size": "80px" }}
         ></i>
         <i
           className="fab fa-bootstrap"

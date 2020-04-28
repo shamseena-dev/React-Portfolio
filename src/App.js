@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './1.svg';
+import Scrollspy from 'react-scrollspy'
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";

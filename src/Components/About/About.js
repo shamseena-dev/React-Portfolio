@@ -5,9 +5,9 @@ import logo from "../../sw.svg"
 function About() {
   return (
     <> 
-    <div className="about">
+    <div className="about-section" id="about">
     <div className="container">
-      <h3 className="center">About Me </h3>
+      <h4 className="center">About Me </h4>
       <img src={logo} className="App-logo" alt="logo" />
       <p className="center">
         I am SHAMSEENA KARUMAROT (Shamz), A passionate Web/Front-End Developer

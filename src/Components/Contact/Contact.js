@@ -3,7 +3,7 @@ import "./contact.scss";
 function Contact(){
    return(
        <>
-       <div className="social-icons">
+       <div className="social-icons" id="contact">
        <div className="container">
        <h4>Contact</h4>
        <h6>Feel free to check my works /connect with me </h6>

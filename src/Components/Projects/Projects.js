@@ -8,9 +8,9 @@ import "./projects.scss";
 function Projects() {
   return (
     <>
-      <div className="projects">
+      <div className="projects-section" id="projects">
         <div className="container">
-          <h3 className="center"> Projects</h3>
+          <h4 className="center"> Projects</h4>
           <div className="projects-container">
           <div className="card container project-card">
             <img src={newslive} alt="News_App_img" />
