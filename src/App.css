@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  
 }
 
 .App-logo {
@@ -14,14 +16,43 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1c1e24;
+  top:0px;
+  width:100vw;
+  height: 90vh;
+  z-index:-1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+.view-button{
+  background-color: #aa2a41;
+  font-size: 16px;
+  height:auto;
+  width:auto;
+  padding:5px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800px;
+}
+.view-button:hover{
+  
+  background-color:transparent;
+  border: 1px solid #aa2a41;
+  
+
+}
+.app-home{
+  min-height:100vh;
+  max-height:auto;
+  background-color: #1c1e24;
+}
+.caption{
+  color: white;
+  
 }
 
 

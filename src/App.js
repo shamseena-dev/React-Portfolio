@@ -12,17 +12,18 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
+    <div className="app-home">
       <Navbar />
       <header className="App-header">
         
         <img src={logo} className="App-logo" alt="logo" />
-        <h4> Hi there, I'm a React/Javascript Front End Developer...</h4><br></br>
-        <button className="btn"> View My works</button>
+        <h5 className="caption"> Hi there, I'm a React/Javascript Front End Developer...</h5><br></br>
+        <button className="btn view-button"> View My works</button>
         {/*<i className="fas fa-laptop-code anim-logo" style={{ color: "orange", "font-size": "35px"}}></i>*/}
 
     
       </header>
-
+     </div>
       <About />
       <Skills/>
       <Projects/>
