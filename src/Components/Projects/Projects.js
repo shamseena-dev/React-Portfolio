@@ -30,7 +30,7 @@ function Projects() {
           <div className="card container project-card">
             <img src={portfolio_react} alt="Portfolio img" />
             <h5>Portfolio - (React)</h5>
-            <p> React, Materialize CSS, SASS/SCSS ,NPM </p>
+            <p> React, React Hooks, Materialize CSS, SASS/SCSS ,NPM </p>
           </div>
           <div className="card container project-card">
             <img src="" alt="Projects Tracker" />

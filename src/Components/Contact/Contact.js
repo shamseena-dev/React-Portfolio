@@ -12,8 +12,8 @@ function Contact(){
        
 
 <a href="https://github.com/shamseena-dev"><i className="fab fa-github social-media-icons" aria-hidden="true"></i></a>
-<a href=""><i class="fas fa-envelope social-media-icons"></i></a>
-<a href="#">
+<a href="mailto:shamseenakarumarot@gmail.com"><i class="fas fa-envelope social-media-icons"></i></a>
+<a href="https://gitlab.com/Shamz-dev">
        <i class="fab fa-gitlab social-media-icons"></i></a>
 
 

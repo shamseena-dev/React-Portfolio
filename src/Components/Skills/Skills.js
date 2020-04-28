@@ -1,6 +1,12 @@
 import React from "react";
 import "./skills.scss";
-
+import Webpack from "../../images/logos/Webpack.JPG";
+import ReactRouter from "../../images/logos/ReactRouter.JPG";
+import SublimeText from "../../images/logos/SublimeText_logo.jpg";
+import VisualStudio from "../../images/logos/VisualStudio.JPG";
+import Redux from "../../images/logos/Redux.JPG";
+import Bootstrap from "../../images/logos/Bootstrap.JPG";
+import Materialize from "../../images/logos/Materialize.JPG";
 function Skills() {
   return (
     <>
@@ -13,14 +19,17 @@ function Skills() {
           className="fab fa-react"
           style={{ color: "#6666ff", "font-size": "80px" }}
         ></i>
-        <i
-          className="fab fa-sass"
-          style={{ color: "purple", "font-size": "80px" }}
-        ></i>
+        <img src={Redux} style={{ "height":"70px","width":"auto"}} />
+        <img src={ReactRouter} style={{ "height":"70px","width":"auto"}} />
         <i
           className="fab fa-js"
           style={{ "color": "yellow","background-color":"black", "font-size": "80px" }}
         ></i>
+        <i
+          className="fab fa-sass"
+          style={{ color: "purple", "font-size": "80px" }}
+        ></i>
+        
         <i
           className="fab fa-css3-alt"
           style={{ color: "blue", "font-size": "80px" }}
@@ -35,17 +44,26 @@ function Skills() {
         ></i>
         <i
           class="fab fa-git"
-          style={{ color: "black", "font-size": "80px" }}
+          style={{ color: "black", "font-size": "60px" }}
         ></i>
         <i className="fab fa-npm" style={{ color: "red", "font-size": "80px" }}></i>
+        
+        
         <i
-          className="fab fa-yarn"
-          style={{ color: "#6666ff", "font-size": "80px" }}
-        ></i>
-        <i
-          className="fab fa-bootstrap"
+          className="fab fa-bootstrap fa-2x"
           style={{ color: "blue", "font-size": "80px" }}
         ></i>
+        <img src={Webpack} style={{ "height":"70px","width":"auto"}} />
+               
+        <img src={Bootstrap} style={{ "height":"70px","width":"auto"}} />
+        <img src={Materialize} style={{ "height":"70px","width":"auto"}} />
+        <img src={SublimeText} style={{ "height":"70px","width":"auto"}} />
+        <img src={VisualStudio} style={{ "height":"70px","width":"auto"}} />
+        <i
+          className="fab fa-yarn"
+          style={{ "color": "#6666ff", "font-size": "80px", }}
+        ></i>
+        
         
       </div>
       </div>
