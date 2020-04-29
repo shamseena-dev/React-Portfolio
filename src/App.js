@@ -8,6 +8,8 @@ import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import Recognitions from "./Components/Recognitions/Recognitions";
+import ProjectsCarousel from "./Components/ProjectsCarousel/ProjectsCarousel";
 
 
 function App() {
@@ -26,8 +28,10 @@ function App() {
       </header>
      </div>
       <About />
+      <ProjectsCarousel/>
       <Skills/>
       <Projects/>
+      <Recognitions />
       <Contact />
       <Footer/>
     </div>
