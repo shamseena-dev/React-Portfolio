@@ -18,7 +18,9 @@ function Navbar(){
                 <li><a href="/"><i className="fas fa-home "></i></a></li>
                 <li><a href="#about"> About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recognitions">Recognitions</a></li><li><a href="#contact">Contact</a></li>
+                
             </ul>
     
     </nav>

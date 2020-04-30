@@ -9,15 +9,19 @@ import w5 from "../../images/recognitions/Hackathon-education.JPG";
 import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
 
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
-
+import "./recognitions.scss"
  
 class Recognitions extends Component {
     render() {
         return (
-            <Carousel>
+            <>
+            <div className="recognitions" id="recognitions"> 
+            <div className="container">
+                <h4>Recognitions & Hackathons</h4>
+                <Carousel>
                 <div style={{"width":"700px","height":"auto","margin":"auto"}}>
                     <img src={w8}  />
-                    <p className="legend">FEATURED IN BLOG,Courtesy:N3XTCODER</p>
+                    <p className="legend">FEATURED IN N3XTCODER BLOG,Courtesy:N3XTCODER</p>
                 </div>
                 <div style={{"width":"550px","height":"100%","margin":"auto"}}>
                     <img src={w4} />
@@ -43,6 +47,9 @@ class Recognitions extends Component {
                 
                 
             </Carousel>
+            </div>
+            </div>
+            </>
         );
     }
 }

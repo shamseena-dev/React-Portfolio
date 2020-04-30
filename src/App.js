@@ -9,7 +9,7 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Recognitions from "./Components/Recognitions/Recognitions";
-import ProjectsCarousel from "./Components/ProjectsCarousel/ProjectsCarousel";
+
 
 
 function App() {
@@ -21,14 +21,14 @@ function App() {
         
         <img src={logo} className="App-logo" alt="logo" />
         <h5 className="caption"> Hi there, I'm a React/Javascript Front End Developer...</h5><br></br>
-        <button className="btn view-button"> View My works</button>
+        <button className="btn view-button"><a href="#projects"> View My works</a></button>
         {/*<i className="fas fa-laptop-code anim-logo" style={{ color: "orange", "font-size": "35px"}}></i>*/}
 
     
       </header>
      </div>
       <About />
-      <ProjectsCarousel/>
+      
       <Skills/>
       <Projects/>
      
