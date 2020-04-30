@@ -1,12 +1,66 @@
 .recognitions{
-    background-color: rgb(250, 243, 243);
+    background-color: #F0F0F0;
     padding-top: 30px;
     h4{
-        top:1000px;
+       
         margin-bottom: 30px;
         color: rgba(20, 85, 105, 0.877);
    padding:20px;
    text-transform: uppercase;
+    }
+    
+}
+.companies{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+          width: auto;
+          height:80px;
+          margin: 30px;
+          
+    }
+    
+}
+.companies-heading{
+       
+        margin-bottom: 30px;
+        color: rgba(20, 85, 105, 0.877);
+   padding:20px;
+   text-transform: uppercase;
+    
+}
+@media all and (min-width:900px){
+    .div1{
+        width:60vw;
+        height:auto;
+        margin:auto;
+    }
+    .div2{
+        width:50vw;
+        height:100%;
+        margin:auto;
+    }
+    .div3{
+        width:38vw;
+        height:100%;
+        margin:auto;
+    }
+    .div4{
+        width:60vw;
+        height:100%;
+        margin:auto;
+    }
+    .div5{
+        width:60vw;
+        height:auto;
+        margin:auto;
+    }
+    .div6{
+        width:60vw;
+        height:auto;
+        margin:auto;
     }
     
 }

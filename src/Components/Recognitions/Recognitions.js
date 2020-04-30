@@ -9,7 +9,19 @@ import w5 from "../../images/recognitions/Hackathon-education.JPG";
 import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
 
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
-import "./recognitions.scss"
+import "./recognitions.scss";
+import TCS from "../../images/companies/tcs.JPG";
+import SAP from "../../images/companies/SAP.JPG";
+import MC360 from "../../images/companies/MC360.JPG";
+import CoronaHelp from "../../images/companies/corona-help.JPG";
+import N3XTCODER from "../../images/companies/N3XTCODER.JPG";
+import RacketMind from "../../images/companies/RacketMind.JPG";
+import Codebar from "../../images/companies/codebar.JPG";
+import KeralaRescue from "../../images/companies/keralaRescue.JPG";
+import HWA from "../../images/companies/HWA.JPG";
+import Circulor from "../../images/companies/circulor.JPG";
+
+
  
 class Recognitions extends Component {
     render() {
@@ -19,29 +31,29 @@ class Recognitions extends Component {
             <div className="container">
                 <h4>Recognitions & Hackathons</h4>
                 <Carousel>
-                <div style={{"width":"700px","height":"auto","margin":"auto"}}>
-                    <img src={w8}  />
+                <div className="div1" >
+                    <img src={w8} alt="Featured in blog" />
                     <p className="legend">FEATURED IN N3XTCODER BLOG,Courtesy:N3XTCODER</p>
                 </div>
-                <div style={{"width":"550px","height":"100%","margin":"auto"}}>
-                    <img src={w4} />
+                <div className="div2" >
+                    <img src={w4} alt="corona-help:Frontend artist" />
                     <p className="legend">CORONA-HELP.ORG, FRONT END ARTIST</p>
                 </div>
-                <div style={{"width":"300px","height":"100%","margin":"auto"}}>
-                    <img src={w2}  />
-                    <p className="legend">HACKATHON, Courtesy:N3XTCODER</p>
+                <div className="div3" >
+                    <img src={w2} alt="hackathon team"  />
+                    <p className="legend">Circulor Team, Courtesy:N3XTCODER</p>
                 </div>
-                <div style={{"width":"500px","height":"100%","margin":"auto"}}>
-                    <img src={w3} />
+                <div className="div4" >
+                    <img src={w3} alt="codebar coach" />
                     <p className="legend">CODEBAR COACH/MENTOR</p>
                 </div>
                 
-                <div style={{"width":"500px","height":"auto","margin":"auto"}}>
-                    <img src={w5}  />
+                <div className="div5" >
+                    <img src={w5} alt="hackathon 2" />
                     <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
                 </div>
-                <div style={{"width":"500px","height":"auto","margin":"auto"}}>
-                    <img src={w6}  />
+                <div className="div6" >
+                    <img src={w6} alt="Hackathon"  />
                     <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
                 </div>
                 
@@ -49,6 +61,21 @@ class Recognitions extends Component {
             </Carousel>
             </div>
             </div>
+            <div className="container companies-div">
+            <h4 className="companies-heading">Companies/Clients Worked For</h4>
+        <div className="companies">
+        <img src={TCS} alt="TCS"/>
+        <img src={SAP} alt="SAP"/>
+        <img src={MC360} alt="MyCareer360"/>
+        <img src={CoronaHelp} alt="Corona-help.org"/>
+        <img src={Codebar} alt="codebar"/>
+        <img src={KeralaRescue} alt="KeralaRescue"/>
+        <img src={N3XTCODER} alt="N3XTCODER"/>
+        <img src={RacketMind} alt="RACKETMIND"/>
+        <img src={Circulor} alt="CIRCULOR"/>
+        <img src={HWA} alt="HWA"/>
+      </div>
+      </div>
             </>
         );
     }
