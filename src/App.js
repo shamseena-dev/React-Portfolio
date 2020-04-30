@@ -31,6 +31,7 @@ function App() {
       <ProjectsCarousel/>
       <Skills/>
       <Projects/>
+     
       <Recognitions />
       <Contact />
       <Footer/>

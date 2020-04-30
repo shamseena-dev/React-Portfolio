@@ -1,56 +1,49 @@
-import React from 'react';
-import Coverflow from 'react-coverflow';
+import React, { Component } from 'react';
 
-
-import w4 from "../../images/recognitions/corona-help.JPG";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import w3 from "../../images/recognitions/codebar-final.JPG";
+import w2 from "../../images/recognitions/Edited-circulor.jpg";
+import w4 from "../../images/recognitions/Edited-coronahelp.jpg";
 import w5 from "../../images/recognitions/Hackathon-education.JPG";
 import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
-import w7 from "../../images/recognitions/N3XTCODER-post.JPG";
+
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
 
-function Recognitions(){
-    return(
-<Coverflow
-
-width={960}
-
-height={480}
-
-displayQuantityOfSide={1}
-
-navigation={false}
-
-enableHeading={false}
-
->
-
-<div
-
-    role="menuitem"
-
-  tabIndex="0"
-
->
-
-  <img
-
-    src={w4}
-
-    alt='title or description'
-
-    style={{ display: 'block', width: '100%' }}
-
-  />
-
-</div>
-<img src={w8} alt='title or description' data-action="#" style={{"width":"500px","height":"auto"}}/>
-<img src={w5} alt='title or description' data-action="#" style={{"width":"500px","height":"auto"}}/>
-<img src={w6} alt='title or description' data-action="#" style={{"width":"500px","height":"auto"}}/>
-
-
-
-</Coverflow>
-    )
+ 
+class Recognitions extends Component {
+    render() {
+        return (
+            <Carousel>
+                <div style={{"width":"700px","height":"auto","margin":"auto"}}>
+                    <img src={w8}  />
+                    <p className="legend">FEATURED IN BLOG,Courtesy:N3XTCODER</p>
+                </div>
+                <div style={{"width":"550px","height":"100%","margin":"auto"}}>
+                    <img src={w4} />
+                    <p className="legend">CORONA-HELP.ORG, FRONT END ARTIST</p>
+                </div>
+                <div style={{"width":"300px","height":"100%","margin":"auto"}}>
+                    <img src={w2}  />
+                    <p className="legend">HACKATHON, Courtesy:N3XTCODER</p>
+                </div>
+                <div style={{"width":"500px","height":"100%","margin":"auto"}}>
+                    <img src={w3} />
+                    <p className="legend">CODEBAR COACH/MENTOR</p>
+                </div>
+                
+                <div style={{"width":"500px","height":"auto","margin":"auto"}}>
+                    <img src={w5}  />
+                    <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
+                </div>
+                <div style={{"width":"500px","height":"auto","margin":"auto"}}>
+                    <img src={w6}  />
+                    <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
+                </div>
+                
+                
+            </Carousel>
+        );
+    }
 }
-
-    export default Recognitions;
+export default Recognitions;
