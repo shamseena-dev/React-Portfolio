@@ -10,7 +10,7 @@ import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
 
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
 import "./recognitions.scss";
-import TCS from "../../images/companies/tcs.JPG";
+import TCS from "../../images/companies/TATA.JPG";
 import SAP from "../../images/companies/SAP.JPG";
 import MC360 from "../../images/companies/MC360.JPG";
 import CoronaHelp from "../../images/companies/corona-help.JPG";
