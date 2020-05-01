@@ -31,6 +31,13 @@ function Projects() {
             <img src={portfolio_react} alt="Portfolio img" />
             <h5>Portfolio - (React)</h5>
             <p> React, React Hooks, Materialize CSS, SASS/SCSS ,NPM </p>
+            <button className="btn demos-btn">
+              <a href="https://shamseena-portfolio.netlify.app/">Demo</a>
+            </button>
+
+            <button className="btn demos-btn">
+              <a href="https://github.com/shamseena-dev/React-Portfolio">GitHub</a>
+            </button>
           </div>
           <div className="card container project-card">
             <img src="" alt="Projects Tracker" />

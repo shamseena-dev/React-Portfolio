@@ -10,8 +10,6 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Recognitions from "./Components/Recognitions/Recognitions";
 
-
-
 function App() {
   return (
     <div className="App">
@@ -28,7 +26,6 @@ function App() {
       </header>
      </div>
       <About />
-      
       <Skills/>
       <Projects/>
      
