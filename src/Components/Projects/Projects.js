@@ -3,6 +3,8 @@ import shopping_list from "../../images/shopping_list.jpg";
 import newslive from "../../images/newslive.jpg";
 import portfolio_js from "../../images/portfolio_pjt.jpg";
 import portfolio_react from "../../images/Portfolio_react.JPG";
+import face_detection from "../../images/face_detect.JPG";
+import project_tracker from "../../images/project_tracker.jpg";
 import "./projects.scss";
 
 function Projects() {
@@ -26,7 +28,18 @@ function Projects() {
               </a>
             </button>
           </div>
+          <div className="card container project-card">
+            <img src={face_detection} alt="Face detection app" />
+            <h5>Face Detection App - (React,Clarifai API)</h5>
+            <p> React, Clarifai API, Materialize CSS ,NPM </p>
+            <button className="btn demos-btn">
+              <a href="https://face-detection-reactapp.herokuapp.com/">Demo</a>
+            </button>
 
+            <button className="btn demos-btn">
+              <a href="https://github.com/shamseena-dev/face-detection-app">GitHub</a>
+            </button>
+          </div>
           <div className="card container project-card">
             <img src={portfolio_react} alt="Portfolio img" />
             <h5>Portfolio - (React)</h5>
@@ -39,12 +52,7 @@ function Projects() {
               <a href="https://github.com/shamseena-dev/React-Portfolio">GitHub</a>
             </button>
           </div>
-          <div className="card container project-card">
-            <img src="" alt="Projects Tracker" />
-            <h5>Projects Tracker</h5>
-            <p> React ,Hooks ,Context ,SASS/SCSS , NPM </p>
-            <p> Work in progress..</p>
-          </div>
+          
           <div className="card container project-card">
             <img src={portfolio_js} alt="Portfolio" />
             <h5>Portfolio -(Javascript)</h5>
@@ -71,6 +79,12 @@ function Projects() {
                 GitHub
               </a>
             </button>
+          </div>
+          <div className="card container project-card">
+            <img src={project_tracker} alt="Projects Tracker" />
+            <h5>Projects Tracker</h5>
+            <p> React ,Hooks ,Context ,SASS/SCSS , NPM </p>
+            <p> Work in progress..</p>
           </div>
           </div>
         </div>

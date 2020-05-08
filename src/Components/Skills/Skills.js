@@ -7,6 +7,11 @@ import VisualStudio from "../../images/logos/VisualStudio.JPG";
 import Redux from "../../images/logos/Redux.JPG";
 import Bootstrap from "../../images/logos/Bootstrap.JPG";
 import Materialize from "../../images/logos/Materialize.JPG";
+import postgresql from "../../images/logos/postgresql.JPG";
+import mongodb from "../../images/logos/mongodb.JPG";
+import express from "../../images/logos/express.JPG";
+import postman from "../../images/logos/postman.JPG";
+import restapi from "../../images/logos/restapi.JPG";
 function Skills() {
   return (
     <>
@@ -53,6 +58,12 @@ function Skills() {
           className="fab fa-bootstrap fa-2x"
           style={{ color: "blue", "font-size": "80px" }}
         ></i>
+        <img src={restapi} style={{ "height":"80px","width":"auto"}} />
+        <img src={postgresql} style={{ "height":"80px","width":"auto"}} />
+        <img src={mongodb} style={{ "height":"80px","width":"auto"}} />
+        <img src={express} style={{ "height":"50px","width":"auto"}} />
+        <img src={postman} style={{ "height":"70px","width":"auto"}} />
+
         <img src={Webpack} style={{ "height":"70px","width":"auto"}} />
                
         <img src={Bootstrap} style={{ "height":"70px","width":"auto"}} />
