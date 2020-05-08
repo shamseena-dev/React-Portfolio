@@ -53,14 +53,9 @@ function Skills() {
         ></i>
         <i className="fab fa-npm" style={{ color: "red", "font-size": "80px" }}></i>
         
-        
-        <i
-          className="fab fa-bootstrap fa-2x"
-          style={{ color: "blue", "font-size": "80px" }}
-        ></i>
         <img src={restapi} style={{ "height":"80px","width":"auto"}} />
         <img src={postgresql} style={{ "height":"80px","width":"auto"}} />
-        <img src={mongodb} style={{ "height":"80px","width":"auto"}} />
+        <img src={mongodb} style={{ "height":"70px","width":"auto"}} />
         <img src={express} style={{ "height":"50px","width":"auto"}} />
         <img src={postman} style={{ "height":"70px","width":"auto"}} />
 
