@@ -30,8 +30,8 @@ function Projects() {
           </div>
           <div className="card container project-card">
             <img src={face_detection} alt="Face detection app" />
-            <h5>Face Detection App - (React,Clarifai API)</h5>
-            <p> React, Clarifai API, Materialize CSS ,NPM </p>
+            <h5>Face Detection App - (MERN Stack + API)</h5>
+            <p> React, Clarifai API,JWT, Express, MongoDB, Node.js, SCSS, Materialize CSS </p>
             <button className="btn demos-btn">
               <a href="https://face-detection-reactapp.herokuapp.com/">Demo</a>
             </button>
