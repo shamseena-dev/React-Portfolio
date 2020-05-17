@@ -1,2 +1,2 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio project, deployed here: https://shamseena-portfolio.netlify.app
 
