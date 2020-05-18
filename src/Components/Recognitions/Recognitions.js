@@ -7,6 +7,7 @@ import w2 from "../../images/recognitions/Edited-circulor.jpg";
 import w4 from "../../images/recognitions/Edited-coronahelp.jpg";
 import w5 from "../../images/recognitions/Hackathon-education.JPG";
 import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
+import w7 from "../../images/recognitions/hacktoberfest2019.jpg";
 
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
 import "./recognitions.scss";
@@ -50,11 +51,15 @@ class Recognitions extends Component {
                 
                 <div className="div5" >
                     <img src={w5} alt="hackathon 2" />
-                    <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
+                    <p className="legend">HACKATHON-Future of Education ,Courtesy:N3XTCODER</p>
                 </div>
                 <div className="div6" >
                     <img src={w6} alt="Hackathon"  />
-                    <p className="legend">HACKATHON ,Courtesy:N3XTCODER</p>
+                    <p className="legend">HACKATHON-Supply Chain Transparency ,Courtesy:N3XTCODER</p>
+                </div>
+                 <div className="div7" >
+                    <img src={w7} alt="Hacktoberfest"  />
+                    <p className="legend">HACKTOBERFEST 2019 </p>
                 </div>
                 
                 
