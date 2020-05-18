@@ -17,7 +17,7 @@ function Projects() {
           <div className="card container project-card">
             <img src={newslive} alt="News_App_img" />
             <h5>NewsLive - (SPA React)</h5>
-            <p> React, React Router, Rest API, NPM, SASS/SCSS, NPM </p>
+            <p> React, React Router, Rest API, SASS/SCSS, NPM </p>
             <button className="btn demos-btn">
               <a href="https://newsliveapp.netlify.com">Demo</a>
             </button>
