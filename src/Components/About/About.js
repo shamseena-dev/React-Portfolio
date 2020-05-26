@@ -22,7 +22,7 @@ function About() {
 I love taking part in hackathons ,love to mentor and to assist social ventures and N.G.Os.         
 </p>
      
-      </p>
+     
       </div>
       </div>
     </>
