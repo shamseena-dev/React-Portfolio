@@ -10,7 +10,7 @@ function About() {
       <h4 className="center">About Me </h4>
       <img src={aboutBanner} className="about-banner" alt="About_banner pic" />
       <p className="center about-notes">
-         I am Shamseena Karumarot (Shamz), a highly passionate Web/Front-End/software Developer. I love building aesthetically pleasing and amazing websites.
+         I am Shamseena Karumarot (Shamz), a highly passionate Web/Front-End/software Developer. I love building aesthetically pleasing and amazing User experiences.
        </p>
    <p>
     Talking a bit about my background, I graduated in Computer Science & Engineering (B.Tech) and grabbed my first job offer in hand while still in 6th semester. It was a dream come true as I joined Tata Consultancy Services within 2 weeks of completion my college days.  
