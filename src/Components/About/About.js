@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import logo from "../../sw.svg"
+import aboutBanner from "../../sw.svg"
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
     <div className="about-section" id="about">
     <div className="container">
       <h4 className="center">About Me </h4>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={aboutBanner} className="about-banner" alt="About_banner pic" />
       <p className="center">
         I am SHAMSEENA KARUMAROT (Shamz), A passionate Web/Front-End Developer
         currently residing in Berlin,Germany.
