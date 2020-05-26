@@ -18,7 +18,7 @@ function About() {
         for a start up and WordPress Content Management for an N.G.O .
         </p>
   <p>
-        I have always been passionate to dive into the Development field and loved to get my hands dirty with code. I have been learning Web development from various sources for while and recently got graduated in Web Development from ZTM academy . I have built a couple of personal projects .I could also work for corona-help.org as Frontend Developer.
+        I have always been passionate to dive into the Development field. I have been learning Web development from various sources for a while and recently got graduated in Web Development from ZTM academy . I have built a couple of personal projects .I could also work for corona-help.org as Frontend Developer.
 I love taking part in hackathons ,love to mentor and to assist social ventures and N.G.Os.         
 </p>
      
