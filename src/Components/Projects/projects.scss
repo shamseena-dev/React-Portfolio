@@ -23,7 +23,10 @@
 }
 .demos-btn{
     margin:20px;
-    background-color:black !important;
+    background-color: rgba(0,0,0,0.7) !important;
+    &:hover{
+        background-color : rgba(0,0,0,0.4) !important;
+    }
     a{
     color: white;
     }
