@@ -14,7 +14,7 @@ function About() {
        </p>
   
   
-        <p>Currently I am working as the Front End Developer and Lead Engineer at PurpleConnect , an AI powered startup in Healthcare . </P>
+        <p>Currently I am working as the Front End Developer and Lead Engineer at PurpleConnect , an AI powered startup in Healthcare . </p>
    <p>
     Talking a bit about my background, I graduated in Computer Science & Engineering (B.Tech) and grabbed my first job offer through campus placement in one of the reputed MNCs  -Tata Consultancy Services.  
         I worked for 2+ years as Systems Engineer at T.C.S(Bangalore) where I handled Level-2 tech support for SAP ERP, EMEA region.  After this, I acquired a couple of project experience in UX/UI Manual Testing
