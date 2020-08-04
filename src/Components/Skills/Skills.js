@@ -24,8 +24,8 @@ function Skills() {
           className="fab fa-react"
           style={{ color: "#6666ff", "font-size": "80px" }}
         ></i>
-        <img src={Redux} style={{ "height":"70px","width":"auto"}} />
-        <img src={ReactRouter} style={{ "height":"70px","width":"auto"}} />
+        <img src={Redux} style={{ "height":"70px","width":"auto"}} alt="redux"/>
+        <img src={ReactRouter} style={{ "height":"70px","width":"auto"}} alt="router"/>
         <i
           className="fab fa-js"
           style={{ "color": "yellow","background-color":"black", "font-size": "80px" }}
@@ -53,18 +53,18 @@ function Skills() {
         ></i>
         <i className="fab fa-npm" style={{ color: "red", "font-size": "80px" }}></i>
         
-        <img src={restapi} style={{ "height":"80px","width":"auto"}} />
-        <img src={postgresql} style={{ "height":"80px","width":"auto"}} />
-        <img src={mongodb} style={{ "height":"70px","width":"auto"}} />
-        <img src={express} style={{ "height":"50px","width":"auto"}} />
-        <img src={postman} style={{ "height":"70px","width":"auto"}} />
+        <img src={restapi} style={{ "height":"80px","width":"auto"}} alt="rest api"/>
+        <img src={postgresql} style={{ "height":"80px","width":"auto"}} alt="potsgresql" />
+        <img src={mongodb} style={{ "height":"70px","width":"auto"}} alt="mongodb" />
+        <img src={express} style={{ "height":"50px","width":"auto"}} alt="express" />
+        <img src={postman} style={{ "height":"70px","width":"auto"}} alt="postman" />
 
-        <img src={Webpack} style={{ "height":"70px","width":"auto"}} />
+        <img src={Webpack} style={{ "height":"70px","width":"auto"}} alt="webpack" />
                
-        <img src={Bootstrap} style={{ "height":"70px","width":"auto"}} />
-        <img src={Materialize} style={{ "height":"70px","width":"auto"}} />
-        <img src={SublimeText} style={{ "height":"70px","width":"auto"}} />
-        <img src={VisualStudio} style={{ "height":"70px","width":"auto"}} />
+        <img src={Bootstrap} style={{ "height":"70px","width":"auto"}} alt="bootstrap" />
+        <img src={Materialize} style={{ "height":"70px","width":"auto"}} alt="materialize" />
+        <img src={SublimeText} style={{ "height":"70px","width":"auto"}} alt="sublime text" />
+        <img src={VisualStudio} style={{ "height":"70px","width":"auto"}} alt="vs code" />
         <i
           className="fab fa-yarn"
           style={{ "color": "#6666ff", "font-size": "80px", }}
