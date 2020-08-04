@@ -12,20 +12,18 @@ function About() {
       <p className="center about-notes">
          I am Shamseena Karumarot (Shamz), a passionate Web/Front-End/software Developer. I love building aesthetically pleasing and amazing User experiences.
        </p>
-  
-  
-        <p>Currently I am working as the Front End Developer and Lead Engineer at PurpleConnect , an AI powered startup in Healthcare . </p>
-   <p>
+    
+        <p>Currently I am working as Front End Developer & Lead Engineer at PurpleConnect , an AI powered startup in Healthcare .
+  I have built a few personal web apps and have volunteered for corona-help.org as Frontend Developer.
+I love to take part in hackathons ,to mentor and assist social ventures and N.G.O's in my extra time. </p>
+ <p>
+
     Talking a bit about my background, I graduated in Computer Science & Engineering (B.Tech) and grabbed my first job offer through campus placement in one of the reputed MNCs  -Tata Consultancy Services.  
-        I worked for 2+ years as Systems Engineer at T.C.S(Bangalore) where I handled Level-2 tech support for SAP ERP, EMEA region.  After this, I acquired a couple of project experience in UX/UI Manual Testing
-        for a start up and WordPress Content Management for an N.G.O .
+        I worked for 2+ years as Systems Engineer at T.C.S(Bangalore) ,handling Level-2 tech support for SAP ERP, EMEA region.  I have project experience in UX/UI Manual Testing
+        for a start up and WordPress Content Management for an N.G.O as well.
         </p>
  
         
-       <p> I have also built a couple of personal projects and have volunteered for corona-help.org as Frontend Developer.
-I love to take part in hackathons ,to mentor and assist social ventures and N.G.O's in my extra time.         
-</p>
-     
      
       </div>
       </div>

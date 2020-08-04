@@ -8,9 +8,12 @@ import w4 from "../../images/recognitions/Edited-coronahelp.jpg";
 import w5 from "../../images/recognitions/Hackathon-education.JPG";
 import w6 from "../../images/recognitions/Hackathon-SCT.JPG";
 import w7 from "../../images/recognitions/hacktoberfest2019.jpg";
+import gh from "../../images/recognitions/arctic_github.JPG";
+import cert from "../../images/recognitions/cert.jpg";
 
 import w8 from "../../images/recognitions/N3XTCODER.JPG";
 import "./recognitions.scss";
+import Intpurple from "../../images/companies/intpurple.JPG";
 import TCS from "../../images/companies/TATA.JPG";
 import SAP from "../../images/companies/SAP.JPG";
 import MC360 from "../../images/companies/MC360.JPG";
@@ -39,6 +42,14 @@ class Recognitions extends Component {
                 <div className="div2" >
                     <img src={w4} alt="corona-help:Frontend artist" />
                     <p className="legend">CORONA-HELP.ORG, FRONT END ARTIST</p>
+                </div>
+                 <div className="div8" >
+                    <img src={cert} alt="webdev certificate"  />
+                    <p className="legend">Web Developer Certification,Udemy</p>
+                </div>
+                 <div className="div9" >
+                    <img src={gh} alt="Arctic code vault"  />
+                    <p className="legend">Arctic Code Vault Contributor</p>
                 </div>
                 <div className="div3" >
                     <img src={w2} alt="hackathon team"  />
@@ -69,6 +80,7 @@ class Recognitions extends Component {
             <div className="container companies-div">
             <h4 className="companies-heading">Companies/Clients Worked For</h4>
         <div className="companies">
+        <img src={Intpurple} alt="Intpurple"/>
         <img src={TCS} alt="TCS"/>
         <img src={SAP} alt="SAP"/>
         <img src={MC360} alt="MyCareer360"/>
