@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         
         <img src={logo} className="banner-pic" alt="banner pic" />
-        <h5 className="caption"> I am a React Front End Developer ...</h5><br></br>
+        <h5 className="caption"> Hi, I am a Front End Developer (React)/ Web Developer...</h5><br></br>
         <button className="btn view-button"><a href="#projects"> View My works</a></button>
         {/*<i className="fas fa-laptop-code anim-logo" style={{ color: "orange", "font-size": "35px"}}></i>*/}
 
