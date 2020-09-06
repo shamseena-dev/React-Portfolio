@@ -5,6 +5,7 @@ import portfolio_js from "../../images/portfolio_pjt.jpg";
 import portfolio_react from "../../images/Portfolio_react.JPG";
 import face_detection from "../../images/face_detect.JPG";
 import project_tracker from "../../images/project_tracker.jpg";
+import news from "../../images/newslocal.JPG";
 import "./projects.scss";
 
 function Projects() {
@@ -14,6 +15,20 @@ function Projects() {
         <div className="container">
           <h4 className="center"> Projects</h4>
           <div className="projects-container">
+           <div className="card container project-card">
+            <img src={news} alt="Local News" />
+            <h5>Local News & Weather  - (SPA React)</h5>
+            <p> React, React Router, Rest API(GNews,openweatherAPI), SASS/SCSS, NPM </p>
+            <button className="btn demos-btn">
+              <a href="https://localnews.netlify.app/">Demo</a>
+            </button>
+
+            <button className="btn demos-btn">
+              <a href="https://github.com/shamseena-dev/news">
+                GitHub
+              </a>
+            </button>
+          </div>
           <div className="card container project-card">
             <img src={newslive} alt="News_App_img" />
             <h5>NewsLive - (SPA React)</h5>
